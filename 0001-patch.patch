@@ -1,0 +1,80 @@
+From 317fc3584b996022bf7e2126c2b628938b0fe56c Mon Sep 17 00:00:00 2001
+From: Abhinavbaskaran0803 <abhinavb.20cse@kongu.edu>
+Date: Thu, 18 May 2023 23:56:40 +0530
+Subject: [PATCH] patch
+
+---
+ 0001-revert.patch | 61 +++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 61 insertions(+)
+ create mode 100644 0001-revert.patch
+
+diff --git a/0001-revert.patch b/0001-revert.patch
+new file mode 100644
+index 0000000..e06e143
+--- /dev/null
++++ b/0001-revert.patch
+@@ -0,0 +1,61 @@
++From 828a4a4d0db01474cabe99005c1ef76ae5e837f4 Mon Sep 17 00:00:00 2001
++From: Abhinavbaskaran0803 <abhinavb.20cse@kongu.edu>
++Date: Thu, 18 May 2023 23:50:35 +0530
++Subject: [PATCH] revert
++
++---
++ 0001-Revert-Revert-hjk.patch | 27 +++++++++++++++++++++++++++
++ a                            |  5 ++++-
++ 2 files changed, 31 insertions(+), 1 deletion(-)
++ create mode 100644 0001-Revert-Revert-hjk.patch
++
++diff --git a/0001-Revert-Revert-hjk.patch b/0001-Revert-Revert-hjk.patch
++new file mode 100644
++index 0000000..7bcdbf7
++--- /dev/null
+++++ b/0001-Revert-Revert-hjk.patch
++@@ -0,0 +1,27 @@
+++From 066eff55413017b8aaa6ac043853db22f2740f57 Mon Sep 17 00:00:00 2001
+++From: Abhinavbaskaran0803 <abhinavb.20cse@kongu.edu>
+++Date: Thu, 18 May 2023 23:46:04 +0530
+++Subject: [PATCH] Revert "Revert "hjk""
+++
+++This reverts commit 6b2f476010c33a29a01dfc1ba24d22f10715caac.
+++
+++git commit -m "com"
+++---
+++ a | 4 +++-
+++ 1 file changed, 3 insertions(+), 1 deletion(-)
+++
+++diff --git a/a b/a
+++index ff3990f..960abfd 100644
+++--- a/a
++++++ b/a
+++@@ -1,2 +1,4 @@
+++ dfghjkldbndkf
+++-sdgu
+++\ No newline at end of file
++++sdgufyghsd
++++fdsvj
++++ghjkl
+++\ No newline at end of file
+++-- 
+++2.25.1
+++
++diff --git a/a b/a
++index 960abfd..1cd1a88 100644
++--- a/a
+++++ b/a
++@@ -1,4 +1,7 @@
++ dfghjkldbndkf
++ sdgufyghsd
++ fdsvj
++-ghjkl
++\ No newline at end of file
+++ghjklkjdfkjd
+++,kjbglkrjtbglwkrjg
+++e.jrngbflewkrbg
+++
++-- 
++2.25.1
++
+-- 
+2.25.1
+
